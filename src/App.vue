@@ -28,7 +28,17 @@ import { pages } from './pages.json'
 export default {
   name: 'app',
   data () { return { pages, current: 0 } },
+  created () {
+    window.addEventListener('keyup', this.keyHandler)
+  },
+  beforeDestroy () {
+    window.removeEventListener('keyup', this.keyHandler)
+  },
   methods: {
+    keyHandler (evt) {
+      if (evt.keyCode === 39) this.next()
+      if (evt.keyCode === 37) this.prev()
+    },
     prev () {
       this.current = this.current ? this.current - 1 : 0
     },
