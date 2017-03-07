@@ -1,0 +1,100 @@
+a {
+  text-decoration: none;
+  color: var(--link);
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.spinner {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  margin: 2rem auto;
+  background-image: url('./assets/spinner.gif');
+  background-size: contain;
+}
+
+/* Transitions! usage: <transition name="blend">…</transition> */
+.blend-enter { opacity: 0; }
+.blend-leave-active { opacity: 0; }
+.blend-enter .blend-container,
+.blend-leave-active .blend-container {
+  transform: scale(1.1);
+}
+
+/* global button styles */
+.button {
+  border-radius: .5rem;
+  border: solid 1px var(--green-dark);
+  background-color: var(--green);
+  color: white;
+  font-size: 1.5em;
+  padding: .5em 1em;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--green-hover);
+  border-color: var(--green-dark-hover);
+}
+.button:disabled {
+  cursor: not-allowed;
+}
+.button.secondary {
+  height: 3.6rem;
+  padding: 0;
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+.button.secondary:hover {
+  background-color: var(--blue-hover);
+}
+.button.tertiary {
+  background-color: transparent;
+  border-color: white;
+}
+
+/* global text input style */
+textarea,
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='password'],
+select {
+  height: 3.5rem;
+  padding: 0 1.5rem;
+  font-size: 1.5rem;
+  line-height: 3.6rem;
+  border-radius: .3rem;
+  border: var(--border-input-field)
+}
+.error textarea,
+.error input[type='text'] {
+  border-color: var(--error);
+}
+
+/* global error message style */
+.error-msg {
+  color: var(--error);
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2rem;
+  min-height: 2rem;
+  visibility: hidden;
+}
+.error .error-msg {
+  visibility: visible;
+}
+
+/* global icon styles */
+.icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1.5rem;
+}
+
+.info-icon {
+  background: var(--blue) url('./assets/icons/info.svg') center no-repeat;
+  background-size: 60%;
+  cursor: pointer;
+}

@@ -1,0 +1,89 @@
+{ "pages": [
+  {
+    "heading": "Who we are…",
+    "content": [
+      "fromAtoB offers comparision of all methods of transportation",
+      "I am a frontend engineer at fromAtoB and responsible for our choice of Vue.js",
+      "https://fromAtoB.com",
+      "norman.koehring@fromatob.com"
+    ]
+  },
+  {
+    "heading": "Why Vue.js?",
+    "content": [
+      "long decision process",
+      "Angular 2 was never an option",
+      "Main candidates where React and Vue.js",
+      "Other candidates: Mithril.js or plain JavaScript",
+      "I fought for Vue.js"
+    ]
+  },
+  {
+    "heading": "Personal opinions",
+    "content": [
+      "Vue.js is simple",
+      "Vue.js is small",
+      "Vue.js is fast"
+    ]
+  },
+  {
+    "heading": "Vue.js vs React",
+    "content": [
+      "Way smaller code base",
+      "Faster in almost all circumstances",
+      "Developer friendly",
+      "Extensive documentation",
+      "Achieves the same with much simpler structures"
+    ]
+  },
+  {
+    "heading": "Vue.js vs Mithril",
+    "content": [
+      "…"
+    ]
+  },
+  {
+    "heading": "Wait… Mithril?",
+    "content": [
+      "Mithril was developed in 2014(?) by Leo Horie",
+      "Fast virtual DOM, Routing, State and Ajax included"
+    ]
+  },
+  {
+    "heading": "Vue.js vs Mithril",
+    "content": [
+      "Vue.js rendering is slower",
+      "Mithril uses JavaScript for templates like React",
+      "Mithril is much more light weight (8kb gzipped)",
+      "Only a library, no nice webpack setups, no Vuefy",
+      "Both have a great documentation",
+      "Mithril predefines even less structure"
+    ]
+  },
+  {
+    "heading": "So why Vue.js?",
+    "content": [
+      "My 'fault'",
+      "But everybody seems to be very happy with the decision"
+    ]
+  },
+  {
+    "heading": "What else",
+    "content": [
+      "We set up a bi-weekly meetup: Vue.js // Berlin",
+      "We open source components",
+      "We filed bug reports and feature requests"
+    ]
+  },
+  {
+    "heading": "Thanks a lot",
+    "content": [
+      "fromAtoB.com",
+      "norman.koehring@fromatob.com",
+      "fromAtoB on Twitter: @fromatob_de",
+      "Vuejs Berlin Meetup on Twitter: @vuejs_berlin",
+      "Me on Twitter: @koehr_in",
+      "This presentation: github.com/nkoehring/aviary_vuejs_2017"
+    ]
+  }
+]}
